@@ -7,3 +7,4 @@ images/*
 !.gitignore
 !ExtractTextLayerInfo.py
 !.git
+!README.md
