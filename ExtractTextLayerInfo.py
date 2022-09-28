@@ -37,7 +37,7 @@ def getTypeLayer(Layers):
                     info["font"] = str(font["Name"])[1:-1]
                 print("text: ", substring)
                 # print("font: ", font["Name"])
-
+                info["fontSize"] = float(stylesheet["FontSize"])
                 # print("fontSize: ", stylesheet["FontSize"])
                 if stylesheet.get('FillColor') != None:
                     ARGB = stylesheet["FillColor"]["Values"]
