@@ -1,1 +1,9 @@
 *.psd
+images/**
+images/*
+!images/.gitkeep
+*
+**
+!.gitignore
+!ExtractTextLayerInfo.py
+!.git
